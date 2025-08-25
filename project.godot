@@ -14,3 +14,12 @@ config/name="BlackJack Game"
 run/main_scene="uid://btsbrritgqw2u"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+DataManager="*res://scripts/global/data_manager.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"

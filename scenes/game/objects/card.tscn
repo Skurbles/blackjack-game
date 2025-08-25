@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg1xpvpq4bkq0"]
+
+[ext_resource type="Script" uid="uid://cur7rmttf2lkn" path="res://scripts/game/objects/card.gd" id="1_q07qs"]
+[ext_resource type="PackedScene" uid="uid://cluawaaah2o35" path="res://assets/models/card/CardModel.glb" id="2_tjrxr"]
+
+[node name="Card" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0407557, 0)
+script = ExtResource("1_q07qs")
+
+[node name="CardModel" parent="." instance=ExtResource("2_tjrxr")]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0, 2.67496)

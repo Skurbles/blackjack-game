@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cek1ahtl6yth"]
+
+[ext_resource type="Script" uid="uid://xtglmc7gfk3k" path="res://scripts/game/objects/card_stack.gd" id="1_u2clk"]
+[ext_resource type="PackedScene" uid="uid://bg1xpvpq4bkq0" path="res://scenes/game/objects/card.tscn" id="2_40r48"]
+
+[node name="card_stack" type="Node3D"]
+script = ExtResource("1_u2clk")
+
+[node name="Card" parent="." instance=ExtResource("2_40r48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0407557, -0.0656548)
+
+[node name="Card2" parent="." instance=ExtResource("2_40r48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0407557, -2.73414)
